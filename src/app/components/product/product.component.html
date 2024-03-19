@@ -1,0 +1,29 @@
+<!--users-->
+<section id="users" class="scrollto clearfix">
+    <div class="row clearfix">
+
+        <div class="col-3">
+
+            <div class="section-heading">
+                <h3>USER MANAGEMENT</h3>
+                <h2 class="section-title">Manage Users</h2>
+                <p class="section-subtitle">
+                  This page provides a user management system catering to clients, agents, and administrators.
+                  It allows efficient handling of user-related tasks, ensuring a seamless experience in user administration.
+                  Utilize the features to add, modify, and remove users with ease.
+                </p>
+              </div>
+        </div>
+        
+        <div class="col-2-3">
+        @for (company of users?.data?.companyBlocks; track company) {
+            <a href="#" class="col-3">
+                <img src="{{company.Image}}" alt="{{company.name}}"/>
+                <div class="client-overlay"><span>{{company.name}}</span></div>
+            </a>
+        }
+        </div>
+
+    </div>
+</section>
+<!--End of users-->

@@ -1,0 +1,63 @@
+<div id="header" class="nav-collapse">
+    <div class="row clearfix">
+        <div class="col-1">
+
+            <!--Logo-->
+            <div id="logo">
+
+                <!--Logo that is shown on the banner-->
+                <img src="../assets/images/logo.png" id="banner-logo" alt="Landing Page"/>
+                <!--End of Banner Logo-->
+
+                <!--The Logo that is shown on the sticky Navigation Bar-->
+                <img src="../assets/images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                <!--End of Navigation Logo-->
+
+            </div>
+            <!--End of Logo-->
+
+            <aside>
+
+                <!--Social Icons in Header-->
+                <ul class="social-icons">
+                    <app-social></app-social>
+                </ul>
+                <!--End of Social Icons in Header-->
+
+            </aside>
+
+            <!--Main Navigation-->
+            <nav id="nav-main">
+                <ul>
+                    <li>
+                        <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+                    </li>
+                    <li>
+                        <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">About</a>
+                    </li>
+                    <li>
+                        <a routerLink="/gallery" routerLinkActive="active" ariaCurrentWhenActive="page">Gallery</a>
+                    </li>
+                    <li>
+                        <a routerLink="/users" routerLinkActive="active" ariaCurrentWhenActive="page">users</a>
+                    </li>
+                    <li>
+                        <a routerLink="/product" routerLinkActive="active" ariaCurrentWhenActive="page">Product</a>
+                    </li>
+                    <li>
+                        <a routerLink="/pricing" routerLinkActive="active" ariaCurrentWhenActive="page">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="logo">
+                <a [routerLink]="['/profile', userId]" routerLinkActive="active" ariaCurrentWhenActive="page">Profile</a>
+            </div>
+            <!--End of Main Navigation-->
+
+            <div id="nav-trigger"><span></span></div>
+            <nav id="nav-mobile"></nav>
+
+        </div>
+    </div>
+</div><!--End of Header-->

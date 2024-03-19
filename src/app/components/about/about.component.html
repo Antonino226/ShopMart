@@ -1,0 +1,36 @@
+ <!--Introduction-->
+ <section id="about" class="introduction scrollto">
+
+    <div class="row clearfix">
+
+        <div class="col-3">
+                <h3>SUCCESS</h3>
+                <h2 class="section-title">How We Help You To Sell Your Product</h2>
+                <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\neiusmod 
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+        </div>
+
+        <div class="col-2-3">
+
+        @for (iconBlock of about?.data?.iconBlocks; track iconBlock) {
+            <!--Icon Block-->
+            <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                <!--Icon-->
+                <div class="icon">
+                    <i class="fa {{iconBlock.icon}} fa-2x"></i>
+                </div>
+                <!--Icon Block Description-->
+                <div class="icon-block-description">
+                    <h4>{{iconBlock.title}}</h4>
+                    <p>{{iconBlock.description}}</p>
+                </div>
+            </div>
+            <!--End of Icon Block-->
+        }
+        </div>
+
+    </div>
+
+
+</section>
+<!--End of Introduction-->

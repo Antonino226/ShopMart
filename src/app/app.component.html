@@ -1,0 +1,9 @@
+<main *ngIf="!isEnter">
+  <router-outlet></router-outlet>
+</main>
+
+<main *ngIf="isEnter" id="content">
+  <app-nav></app-nav>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</main>

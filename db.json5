@@ -1,0 +1,88 @@
+{configuration : [
+  {id:2,
+  name:'users',
+      data: {
+          title: 'TRUST',
+          description: 'Companies who use our services',
+          detail:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
+          companyBlocks: [
+          {id: 1 , Image:'../assets/images/company-images/company-logo1.png' , name:'Tree'},
+          {id: 2 , Image:'../assets/images/company-images/company-logo2.png', name:'Fingerprint'},
+          {id: 3 , Image:'../assets/images/company-images/company-logo3.png' , name:'The Man'},
+          {id: 4 , Image:'../assets/images/company-images/company-logo4.png' , name:'Mustache'},
+          {id: 5 , Image:'../assets/images/company-images/company-logo5.png' , name:'Moose'},
+          {id: 6 , Image:'../assets/images/company-images/company-logo6.png' , name:'Justice'},
+          {id: 7 , Image:'../assets/images/company-images/company-logo7.png' , name:'Ball'},
+          {id: 8 , Image:'../assets/images/company-images/company-logo8.png' , name:'Cold'},
+          {id: 9 , Image:'../assets/images/company-images/company-logo9.png' , name:'Apple'},
+          ]
+    }
+  },
+  {id:3,
+  name:'gallery',
+      data: {
+          title: 'Gallery',
+          description: 'Project images',
+          detail:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!',
+          galleryBlocks: [
+              {id: 1 , url:'../assets/images/gallery-images/gallery-image-1.jpg' , name:'Tree'},
+              {id: 2 , url:'../assets/images/gallery-images/gallery-image-2.jpg', name:'Fingerprint'},
+              {id: 3 , url:'../assets/images/gallery-images/gallery-image-3.jpg' , name:'The Man'},
+              {id: 4 , url:'../assets/images/gallery-images/gallery-image-4.jpg' , name:'Mustache'},
+              {id: 5 , url:'../assets/images/gallery-images/gallery-image-5.jpg' , name:'Moose'},
+              {id: 6 , url:'../assets/images/gallery-images/gallery-image-6.jpg' , name:'Justice'},
+          ]
+    }
+  },
+  {id:8,
+  name:'footer',
+      data: {
+          title:'Made with love by',
+          url:'https://www.shapingrain.com',
+          developer:'ShapingRain'
+      }
+  },
+  {id:9,
+      name:'social',
+      data:{ 
+      title:'socialicons',
+      socialBlock: [ 
+          {id:1,
+          title:'Facebook',
+          target:'_blank',
+          username:'admister',
+          url:'https://www.facebook.com/',
+          icon:'facebook',
+        },
+        {id:2,
+          title:'Behance',
+          target:'_blank',
+          username:'admister',
+          url:'http://www.behance.net/',
+          icon:'behance',
+        },
+        {id:3,
+          title:'twitter',
+          target:'_blank',
+          username:'admister',
+          url:'http://www.x.com/',
+          icon:'twitter',
+        },
+        {id:4,
+          title:'Instagram',
+          target:'_blank',
+          username:'admister',
+          url:'http://www.instagram.com/',
+          icon:'instagram',
+        },
+        {id:5,
+          title:'Google+',
+          target:'_blank',
+          username:'admister',
+          url:'http://google.com/+',
+          icon:'google-plus',
+        },
+      ]
+    }
+  }
+]}
